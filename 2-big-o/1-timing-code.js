@@ -1,4 +1,6 @@
-// Timing code performance varies between machines and instances
+// Timing code performance varies between machines
+// The same machines will record different times
+// For fast algorithms, speed measurement may not be precise enough
 
 // function addUpto(n) {
 // 	let total = 0;
