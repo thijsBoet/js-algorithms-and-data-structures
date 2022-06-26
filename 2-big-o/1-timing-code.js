@@ -2,13 +2,13 @@
 // The same machines will record different times
 // For fast algorithms, speed measurement may not be precise enough
 
-// function addUpto(n) {
-// 	let total = 0;
-// 	for (let i = 1; i <= n; i++) {
-// 		total += i
-// 	}
-// 	return total
-// }
+function addUpto(n) {
+	let total = 0;
+	for (let i = 1; i <= n; i++) {
+		total += i
+	}
+	return total
+}
 
 const addUpTo = n => n * (n + 1) / 2;
 
