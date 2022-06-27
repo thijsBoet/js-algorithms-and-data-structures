@@ -14,7 +14,15 @@
 Big O allows us to talk formally about how the runtime grows as the input grows
 
 1. Always worst case scenario
+```
+O(n2 + 5n +8) === O(n2)
+```
 2. Remove constants
+```
+O(5n + 10) === O(n)
+O(500) === O(1)
+O(13n2) === O(n2)
+```
 3. - Different inputs have different variables O(a+b)
    - A and B arrays nested would be O(a*b)
 4. Drop non dominant terms
