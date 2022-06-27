@@ -1,6 +1,5 @@
 # JavaScript Algorithms and Data Structures Masterclass
 
-## Big O
 ### Problem with time measurements
 1. Timing code performance varies between machines
 2. The same machine will record different times
@@ -57,3 +56,32 @@ myString.split("").reverse().join("")
 ```
 myArray.map(number => number * 2)
 ```
+
+### Analyzing performance of Objects
+Use objects when you don't need order and fast access / insertion / deletion
+- Insertion - O(1)
+- Access - O(1)
+- Deletion - O(1)
+- Searching - O(n)
+
+- Object.keys() - O(n)
+- Object.values() - O(n)
+- Object.entries() - O(n)
+- hasOwnProperty() - O(1)
+
+### Analyzing performance of Arrays
+Use Arrays when you need order and sort of fast access / insertion / deletion
+- Insertion - depends on index end = O(1) begin = O(n)
+- Access - O(1)
+- Deletion - depends on index end = O(1) begin = O(n)
+- Searching - O(n)
+
+- push - O(1)
+- pop - O(1)
+- shift - O(1)
+- unshift - O(n)
+- concat - O(n)
+- slice - O(n)
+- splice - O(n)
+- sort - O(n log(n))
+- forEach/map/filter/reduce/etc - O(n)
