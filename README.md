@@ -41,3 +41,19 @@ O(13n2) === O(n2)
 2. Variable assignments are constant time
 3. Accessing elements in an array (index) or object (key) are constant time
 4. In a loop, the time complexity is the length of the loop times the complexity of whatever happens inside the loop
+
+### Space Complexity
+Space complexity measures how much additional memory we need to allocate in order to run the code in our algorithm
+
+1. Most primitives (booleans, numbers, undefined, null) are constant space
+```
+myArray.reduce((sum, value) => sum += value)
+```
+2. Strings require O(n) space (where n is the string length)
+```
+myString.split("").reverse().join("")
+```
+4. Reference types are generally O(n), where n is the length (arrays) or number of keys (objects)
+```
+myArray.map(number => number * 2)
+```
