@@ -19,8 +19,10 @@ Big O allows us to talk formally about how the runtime grows as the input grows
    - A and B arrays nested would be O(a*b)
 4. Drop non dominant terms
 
-- O(1)Constant –no loopsO(log N)
-- Logarithmic –usually searching algorithms have log n if they are sorted (Binary Search)- O(n)Linear –for loops, while loops through n itemsO(n log(n))
-- Log Linear –usually sorting operationsO(n^2)Quadratic –every element in a collection needs to be compared to ever other element.
-- Two nested loopsO(2^n)Exponential –recursive algorithms that solves a problem of size NO(n!)
-- Factorial –you are adding a loop for every element
+- O(1)Constant –no loops
+- O(log N) Logarithmic –usually searching algorithms have log n if they are sorted (Binary Search)
+- O(n) Linear –for loops, while loops through n itemsO(n log(n))
+- O(n log(n)) Log Linear –usually sorting operationsO(n^2)
+- O(n^2) Quadratic –every element in a collection needs to be compared to ever other element. Two nested loopsO(2^n)
+- O(2^n) Exponential –recursive algorithms that solves a problem of size NO(n!)
+- O(n!) Factorial –you are adding a loop for every element
