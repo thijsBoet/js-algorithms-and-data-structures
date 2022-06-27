@@ -59,10 +59,10 @@ myArray.map(number => number * 2)
 
 ### Analyzing performance of Objects
 Use objects when you don't need order and fast access / insertion / deletion
-- Insertion - O(1)
-- Access - O(1)
-- Deletion - O(1)
-- Searching - O(n)
+1. Insertion - O(1)
+2. Access - O(1)
+3. Deletion - O(1)
+4. Searching - O(n)
 
 - Object.keys() - O(n)
 - Object.values() - O(n)
@@ -71,10 +71,10 @@ Use objects when you don't need order and fast access / insertion / deletion
 
 ### Analyzing performance of Arrays
 Use Arrays when you need order and sort of fast access / insertion / deletion
-- Insertion - depends on index end = O(1) begin = O(n)
-- Access - O(1)
-- Deletion - depends on index end = O(1) begin = O(n)
-- Searching - O(n)
+1. Insertion - depends on index end = O(1) begin = O(n)
+2. Access - O(1)
+3. Deletion - depends on index end = O(1) begin = O(n)
+4. Searching - O(n)
 
 - push - O(1)
 - pop - O(1)
