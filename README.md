@@ -85,3 +85,27 @@ Use Arrays when you need order and sort of fast access / insertion / deletion
 - splice - O(n)
 - sort - O(n log(n))
 - forEach/map/filter/reduce/etc - O(n)
+
+### How to improve solving algorithms
+An algorithm is a process or set of steps to accomplish a certain task.
+
+1 - Devise a plan for solving problems
+2 - Master common problem solving patterns
+
+1. Understand the problem
+   - Explore concrete examples
+   - Identify the inputs and outputs of the problem
+   - Look for edge cases
+   1.  Can I restate the problem in my own words?
+   2.  What are the inputs that go into the problem?
+   3.  What are the outputs that should come from the solution to the problem?
+   4.  Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem?
+   5.  How should I label the important pieces of data that are a part of the problem?
+
+2. Break it down into steps
+   - solve/simplify the problem
+   - break the problem down into smaller parts
+
+3. Write the code
+4. Test the code
+5. Refactor the code
