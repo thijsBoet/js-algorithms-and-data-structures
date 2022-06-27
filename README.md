@@ -27,6 +27,8 @@ O(13n2) === O(n2)
    - A and B arrays nested would be O(a*b)
 4. Drop non dominant terms
 
+![Big O Chart](big-o-chart.png)
+
 - O(1)Constant –no loops
 - O(log N) Logarithmic –usually searching algorithms have log n if they are sorted (Binary Search)
 - O(n) Linear –for loops, while loops through n itemsO(n log(n))
@@ -34,3 +36,8 @@ O(13n2) === O(n2)
 - O(n^2) Quadratic –every element in a collection needs to be compared to ever other element. Two nested loopsO(2^n)
 - O(2^n) Exponential –recursive algorithms that solves a problem of size NO(n!)
 - O(n!) Factorial –you are adding a loop for every element
+
+1. Arithmetic operations are constant time
+2. Variable assignments are constant time
+3. Accessing elements in an array (index) or object (key) are constant time
+4. In a loop, the time complexity is the length of the loop times the complexity of whatever happens inside the loop
