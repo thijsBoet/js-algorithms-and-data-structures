@@ -96,16 +96,49 @@ An algorithm is a process or set of steps to accomplish a certain task.
    - Explore concrete examples
    - Identify the inputs and outputs of the problem
    - Look for edge cases
+
    1.  Can I restate the problem in my own words?
+		- Start with simple example
+		- Progress to more complex examples
    2.  What are the inputs that go into the problem?
+		- Explore examples with empty inputs
+		- Explore examples with invalid inputs
    3.  What are the outputs that should come from the solution to the problem?
    4.  Can the outputs be determined from the inputs? In other words, do I have enough information to solve the problem?
    5.  How should I label the important pieces of data that are a part of the problem?
 
-2. Break it down into steps
+2. Break it down into steps (forces you to thing about code and helps you catch any lingering conceptual issues or misunderstandings, before you dive in)
    - solve/simplify the problem
    - break the problem down into smaller parts
 
 3. Write the code
 4. Test the code
 5. Refactor the code
+
+### Example
+Write a character map function that takes a string and returns an object mapping
+
+UNDERSTAND THE PROBLEM AND EXPLORE CONCRETE EXAMPLES
+----------------------------------------------------
+1. Differentiate numbers?
+2. Differentiate upper and lower case?
+3. Differentiate punctuation?
+4. Differentiate spaces?
+5. Count zero occurrences?
+6. Empty input?
+7. Invalid types. like booleans and numbers?
+
+BREAK IT DOWN
+-------------
+```
+const charCount = (string) => {
+	// create charmap object to return at end
+
+	// loop over lowercase string for each character
+		// if the char is a number/letter AND is a key in object add one
+		// if char is a number/letter is not in object add it and set value to one
+		// if character is something else (space, period, etc.) do nothing
+
+	// return charMap
+}
+```
