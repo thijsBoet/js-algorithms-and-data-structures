@@ -89,8 +89,8 @@ Use Arrays when you need order and sort of fast access / insertion / deletion
 ### How to improve solving algorithms
 An algorithm is a process or set of steps to accomplish a certain task.
 
-1 - Devise a plan for solving problems
-2 - Master common problem solving patterns
+1. Devise a plan for solving problems
+2. Master common problem solving patterns
 
 1. Understand the problem
    - Explore concrete examples
@@ -132,14 +132,14 @@ BREAK IT DOWN
 -------------
 ```
 const charCount = (string) => {
-	create charMap object to return at end
+	// create charMap object to return at end
 
-	loop over lowercase string for each character
-		if the char is a number/letter AND is a key in object add one
-		if char is a number/letter is not in object add it and set value to one
-		if character is something else (space, period, etc.) do nothing
+	// loop over lowercase string for each character
+		// if the char is a number/letter AND is a key in object add one
+		// if char is a number/letter is not in object add it and set value to one
+		// if character is something else (space, period, etc.) do nothing
 
-	return charMap
+	// return charMap
 }
 
 const charCount = (string) => {
@@ -158,3 +158,13 @@ SOLVE THE PROBLEM if you can't SOLVE A SIMPLER PROBLEM
 2. Temporarily ignore that difficulty
 3. Write a simplified solution
 4. Then incorporate that difficulty back in
+
+REFACTOR QUESTIONS
+------------------
+- Can you check the result?
+- Can you derive the result differently?
+- Can you understand it at a glance?
+- Can you use the result or method for some other problem?
+- Can you improve the performance of your solution?
+- Can you think of other ways to refactor?
+- How have other people solved this problem?
