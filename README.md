@@ -130,6 +130,7 @@ UNDERSTAND THE PROBLEM AND EXPLORE CONCRETE EXAMPLES
 
 BREAK IT DOWN
 -------------
+```
 const charCount = (string) => {
 	create charMap object to return at end
 
@@ -140,7 +141,7 @@ const charCount = (string) => {
 
 	return charMap
 }
-```
+
 const charCount = (string) => {
 	const charMap = {}
 
