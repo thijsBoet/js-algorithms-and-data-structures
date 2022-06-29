@@ -41,4 +41,15 @@ SOLVE THE PROBLEM if you can't SOLVE A SIMPLER PROBLEM
 2. Temporarily ignore that difficulty
 3. Write a simplified solution
 4. Then incorporate that difficulty back in
+
+REFACTOR QUESTIONS
+------------------
+- Can you improve the performance of your solution?
+- Can you derive the result differently?
+- Can you think of other ways to refactor?
+- How have other people solved this problem?
+- Can you understand it at a glance?
+- Can you check the result?
+- Can you use the result or method for some other problem?
+
 */

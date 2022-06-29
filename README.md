@@ -132,25 +132,40 @@ BREAK IT DOWN
 -------------
 ```
 const charCount = (string) => {
-	// create charMap object to return at end
+// create charMap object to return at end
 
-	// loop over lowercase string for each character
-		// if the char is a number/letter AND is a key in object add one
-		// if char is a number/letter is not in object add it and set value to one
-		// if character is something else (space, period, etc.) do nothing
+// loop over lowercase string for each character
+	// if the char is a number/letter AND is a key in object add one
+	// if char is a number/letter is not in object add it and set value to one
+	// if character is something else (space, period, etc.) do nothing
 
-	// return charMap
+// return charMap
+}
+
+const isAlphaNumeric = (char) => {
+	let code = char.charCodeAt(0);
+	if(!(code > 47 && code < 58) &&
+		 !(code > 64 && code < 91) &&
+		 !(code > 96 && code < 123)) {
+		return false
+	}
+	return true
 }
 
 const charCount = (string) => {
 	const charMap = {}
 
-	for (char in string.toLowerCase().split("")){
-		charMap[char] = charMap[char] + 1 || 1
+	for (let char of string){
+	//if(/[a-z0-9]/.test(char)) charMap[char] = charMap[char] + 1 || 1
+		if(isAlphaNumeric(char)) {
+			char = char.toLowerCase()
+			charMap[char] = charMap[char] + 1 || 1
+		}
 	}
 
 	return charMap
 }
+
 ```
 SOLVE THE PROBLEM if you can't SOLVE A SIMPLER PROBLEM
 ------------------------------------------------------
@@ -161,10 +176,79 @@ SOLVE THE PROBLEM if you can't SOLVE A SIMPLER PROBLEM
 
 REFACTOR QUESTIONS
 ------------------
-- Can you check the result?
-- Can you derive the result differently?
-- Can you understand it at a glance?
-- Can you use the result or method for some other problem?
 - Can you improve the performance of your solution?
+- Can you derive the result differently?
 - Can you think of other ways to refactor?
 - How have other people solved this problem?
+- Can you understand it at a glance?
+- Can you check the result?
+- Can you use the result or method for some other problem?
+
+### Common problem solving patterns
+About 10-20% of problems follow a common problem solving patterns
+- Some Examples are:
+1. Divide and Conquer
+  - Mergesort
+	- Quicksort
+	- Median
+	- Karatsuba’s Integer Multiplication
+	- Matrix Multiplication
+	- FFT
+	- Nearest Neighbors
+2. Decrease and Conquer
+	- Binary search
+	- Factorial
+	- Selection Sort
+	- Insertion Sort
+	- Largest Number
+	- Greatest Common Divisor
+	- Topological Sort
+	- Insertion or lookup in a binary search tree
+	- Computing the median
+3. The Greedy Method
+	- Minimum Spanning Trees
+	- Naive coin changing
+	- Huffman Compression
+	- Dijkstra’s Shortest Path
+4. Dynamic Programming
+	- Interval scheduling
+	- Longest common subsequence
+	- Coin changing
+	- Levenshtein distance
+	- Matrix-chain multiplication
+	- Integer knapsack
+	- Shortest path
+	- Word wrap
+	- Traveling salesperson
+5. Backtracking
+	- Map coloring
+	- Eight queens
+	- Knight’s Tour
+	- Maze solving
+	- Regular expression matching
+	- Generic path finding
+6. Branch and Bound
+	- Satisfiability
+	- Traveling salesperson
+	- Integer programming
+	- Nearest neighbor search
+	- Nonlinear programming
+7. Hill Climbing
+8. Particle Swarm Optimization
+	- Neural network training
+	- Finite element updating
+9. Las Vegas
+	- Finding a value in a collection
+	- Randomized Quicksort
+10. Monte Carlo
+	- Miller-Rabin primality test
+	- Approximating π (by throwing darts)
+	- Approximating integrals
+	- Game playing
+11. Reduction (Transformation) a.k.a. transform and conquer.
+12. Preprocessing
+	- Table of counts for counting sort
+	- Boyer-Moore pattern matching
+	- Storing often used data in a hashtable
+	- Store often used data in a search tree (B-tree, BST, Red-black, ...)
+	- Heapify, prior to heapsort
