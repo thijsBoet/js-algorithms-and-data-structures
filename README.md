@@ -186,7 +186,7 @@ REFACTOR QUESTIONS
 
 ### Common problem solving patterns
 About 10-20% of problems follow a common problem solving patterns
-- Some Examples are:
+Some Examples are:
 1. Divide and Conquer
   - Mergesort
 	- Quicksort
