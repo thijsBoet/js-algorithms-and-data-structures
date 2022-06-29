@@ -188,67 +188,67 @@ REFACTOR QUESTIONS
 About 10-20% of problems follow a common problem solving patterns
 Some Examples are:
 1. Divide and Conquer
-- Mergesort
-- Quicksort
-- Median
-- Karatsuba’s Integer Multiplication
-- Matrix Multiplication
-- FFT
-- Nearest Neighbors
+  - Mergesort
+	- Quicksort
+	- Median
+	- Karatsuba’s Integer Multiplication
+	- Matrix Multiplication
+	- FFT
+	- Nearest Neighbors
 2. Decrease and Conquer
-- Binary search
-- Factorial
-- Selection Sort
-- Insertion Sort
-- Largest Number
-- Greatest Common Divisor
-- Topological Sort
-- Insertion or lookup in a binary search tree
-- Computing the median
+	- Binary search
+	- Factorial
+	- Selection Sort
+	- Insertion Sort
+	- Largest Number
+	- Greatest Common Divisor
+	- Topological Sort
+	- Insertion or lookup in a binary search tree
+	- Computing the median
 3. The Greedy Method
-- Minimum Spanning Trees
-- Naive coin changing
-- Huffman Compression
-- Dijkstra’s Shortest Path
+	- Minimum Spanning Trees
+	- Naive coin changing
+	- Huffman Compression
+	- Dijkstra’s Shortest Path
 4. Dynamic Programming
-- Interval scheduling
-- Longest common subsequence
-- Coin changing
-- Levenshtein distance
-- Matrix-chain multiplication
-- Integer knapsack
-- Shortest path
-- Word wrap
-- Traveling salesperson
+	- Interval scheduling
+	- Longest common subsequence
+	- Coin changing
+	- Levenshtein distance
+	- Matrix-chain multiplication
+	- Integer knapsack
+	- Shortest path
+	- Word wrap
+	- Traveling salesperson
 5. Backtracking
-- Map coloring
-- Eight queens
-- Knight’s Tour
-- Maze solving
-- Regular expression matching
-- Generic path finding
+	- Map coloring
+	- Eight queens
+	- Knight’s Tour
+	- Maze solving
+	- Regular expression matching
+	- Generic path finding
 6. Branch and Bound
-- Satisfiability
-- Traveling salesperson
-- Integer programming
-- Nearest neighbor search
-- Nonlinear programming
+	- Satisfiability
+	- Traveling salesperson
+	- Integer programming
+	- Nearest neighbor search
+	- Nonlinear programming
 7. Hill Climbing
 8. Particle Swarm Optimization
-- Neural network training
-- Finite element updating
+	- Neural network training
+	- Finite element updating
 9. Las Vegas
-- Finding a value in a collection
-- Randomized Quicksort
+	- Finding a value in a collection
+	- Randomized Quicksort
 10. Monte Carlo
-- Miller-Rabin primality test
-- Approximating π (by throwing darts)
-- Approximating integrals
-- Game playing
+	- Miller-Rabin primality test
+	- Approximating π (by throwing darts)
+	- Approximating integrals
+	- Game playing
 11. Reduction (Transformation) a.k.a. transform and conquer.
 12. Preprocessing
-- Table of counts for counting sort
-- Boyer-Moore pattern matching
-- Storing often used data in a hashtable
-- Store often used data in a search tree (B-tree, BST, Red-black, ...)
-- Heapify, prior to heapsort
+	- Table of counts for counting sort
+	- Boyer-Moore pattern matching
+	- Storing often used data in a hashtable
+	- Store often used data in a search tree (B-tree, BST, Red-black, ...)
+	- Heapify, prior to heapsort
